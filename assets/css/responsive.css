@@ -1,0 +1,440 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap
+/* Large devices (Extra large desktops, col-xxl, 1400px and up) */
+@media screen and (min-width: 1399px /* col-xl */) { 
+
+}
+
+/* Large devices (large desktops, col-xl, 1200px and up) */
+@media screen and (max-width: 1199px /* col-lg */) { 
+    h1 {
+        font-size: 68px;
+        line-height: 75px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    h6 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .pricing-content-item {
+        padding: 50px 25px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:after {
+        left: -55px;
+        width: 295px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(2):after {
+        left: -65px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(3):after {
+        left: -71px;
+    }
+    .WPHost-content h4 {
+        font-size: 22px;
+    }
+    .WPHost-content {
+        padding: 50px 20px 25px;
+    }
+    .feedback-header h2 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (small desktops, col-lg, 992px and up) */
+@media screen and (max-width: 991px /* col-md */) {
+    form.signUp {
+        position: absolute;
+        top: 7%;
+        right: 32%;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    ul.navbar-nav li {
+        float: left;
+        margin-left: -15px;
+    }
+    section.banner {
+        padding: 90px 0;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 70px;
+    }
+    .banner-content h1 {
+        margin-bottom: 18px;
+    }
+    .banner-content p {
+        margin-bottom: 30px;
+    }
+    button.btn.trial {
+        padding: 16px 30px;
+    }
+    .domain-address form {
+        max-width: 550px;
+    }
+    button.btn.btn-primary {
+        padding: 9px 43px;
+    }
+    .button-area {
+        margin-right: 5px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    ul.info-items li h3 {
+        padding: 0 10px;
+    }
+    span {
+        font-size: 12px;
+    }
+    ul.info-items li h3 span {
+        margin-left: 5px;
+    }
+    .content-header h5 {
+        font-size: 18px;
+        margin-left: 12px;
+    }
+    .content-header span {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        border-radius: 17px;
+    }
+    .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:after {
+        left: -28px;
+        width: 214px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(2):after {
+        left: -35px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(3):after {
+        left: -37px;
+    }
+    h2 span {
+        font-size: 42px;
+    }
+    .pricing-content-item span svg {
+        width: 30px;
+    }
+    .pricing-area h3 {
+        font-size: 34px;
+    }
+    .pricing-area span {
+        font-size: 19px;
+    }
+    .content-header {
+        padding-bottom: 25px;
+    }
+    .pricing-content-item {
+        padding: 35px 15px;
+    }
+    .pricing-area h3 {
+        margin-bottom: 10px;
+    }
+    .pricing-area p {
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .pricing-items ul li {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .pricing-items ul li i {
+        margin-right: 8px;
+    }
+    .pricing-items ul li span {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .pricing-content-item button.btn.trial {
+        padding: 12px 24px;
+    }
+    section.data-center .section-header {
+        padding: 120px 0 100px;
+    }
+    .table-content {
+        margin-bottom: 5.9rem;
+    }
+    section.data-center {
+        background: #4f80ff;
+        padding-bottom: 125px;
+    }
+    .table>:not(caption)>*>* {
+        padding: 0.8rem 0rem;
+    }
+    td {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    th {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    tbody tr td i {
+        margin-left: 5px;
+    }
+    .WPHost-content {
+        padding: 50px 15px 25px;
+    }
+    .WPHost-content h4 {
+        font-size: 18px;
+    }
+    .WPHost-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    section.data-center .section-header h6 {
+        font-size: 32px;
+        line-height: 43px;
+        margin-top: 5px;
+    }
+    .data-content .content-header h6 {
+        font-size: 15px;
+    }
+    .content-header img {
+        max-width: 24px;
+    }
+    .content-items h5 {
+        font-size: 20px;
+    }
+    .content-header h6 {
+        line-height: 26px;
+    }
+    .content-items p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    section.clint-feedback p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .feedback-header {
+        padding-top: 20px;
+    }
+    .feedback-header h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .author-comments p {
+        padding: 18px 0 12px;
+    }
+    .carousel-control-next {
+        bottom: -115%;
+    }
+    .carousel-control-prev {
+        bottom: -115%;
+    }
+    .footer-item ul li {
+        font-size: 16px;
+    }
+    .footer-item ul li a {
+        font-size: 16px;
+    }
+  
+}
+ 
+/* Large devices (Tab, col-md, 768px and up) */
+@media screen and (max-width: 767px /* col-sm */) {
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    h4 {
+        line-height: 60px;
+    }
+    .banner-content p {
+        margin-bottom: 25px;
+        line-height: 28px;
+    }
+    button.btn.trial {
+        padding: 14px 25px;
+        font-size: 12px;
+    }
+    .domain-address form {
+        max-width: 450px;
+    }
+    .dropdown, .dropend, .dropstart, .dropup {
+        margin-right: 34px;
+    }
+    .domain-address .form-control {
+        max-width: 540px;
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+    button#dropdownMenuButton1 {
+        font-size: 16px;
+    }
+    button.btn.btn-primary {
+        padding: 9px 34px;
+    }
+    ul.info-items li h3 {
+        padding: 0 4px;
+    }
+    ul.info-items li h3 span {
+        margin-left: 2px;
+    }
+    .nav-tabs .nav-link {
+        font-size: 15px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:after {
+        left: -17px;
+        width: 157px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(2):after {
+        left: -18px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:nth-child(3):after {
+        left: -21px;
+    }
+    .content-header {
+        padding-bottom: 12px;
+    }
+    .content-header h5 {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+    .content-header span {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        border-radius: 15px;
+    }
+    .pricing-area p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .pricing-items ul li {
+        font-size: 13px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .pricing-items ul li span {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .pricing-area h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .pricing-area span {
+        font-size: 12px;
+    }
+    .pricing-content-item button.btn.trial {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+    section.data-center .section-header p {
+        max-width: 420px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    th {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    td {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    section.WPHost {
+        padding: 120px 0;
+    }
+    .WPHost-content {
+        margin-bottom: 30px;
+    }
+    section.data-center {
+        background: #4f80ff;
+        padding-bottom: 125px;
+    }
+    .data-content {
+        margin-bottom: 50px;
+        padding-right: 50px;
+    }
+    .content-header img {
+        max-width: 28px;
+    }
+    .data-content .content-header h6 {
+        font-size: 20px;
+    }
+    .content-items h5 {
+        font-size: 30px;
+    }
+    .content-items p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .feedback-header h2 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .feedback-header {
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    section.data-center .section-header h6 {
+        font-size: 25px;
+        line-height: 38px;
+        margin-top: 18px;
+        margin-bottom: 24px;
+    }
+    .footer-element {
+        margin-bottom: 50px;
+    }
+    .copyright {
+        padding-top: 30px;
+    }
+    #toTopBtn {
+        bottom: 50px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        border-radius: 10px;
+    }
+
+
+}
+
+/* Large devices (Tab, 641px and up) */
+@media screen and (max-width: 640px) { 
+
+}
+
+  /* Small devices (mobile, col-sm, 576px and up) */
+  @media (max-width:575px /* col-xs */) {
+
+  }
+	
+ 
+  /* Small devices (mobil, col-xs < 575px and up) */
+@media (max-width:480px) {
+
+}	
+
+
+
+/* Small devices (tablets, 321px and up) */
+@media (max-width:320px) {
+	
+	
+	
+ 
+}
